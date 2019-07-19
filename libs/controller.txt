@@ -1,0 +1,8 @@
+
+class Controller{
+    static index(req,res){
+        res.render(/*your index view name */)
+    }
+}
+
+export default Controller

@@ -1,0 +1,11 @@
+import Sequelize from 'sequelize';
+const BaseModel = Sequelize.Model;
+
+class ModelName extends BaseModel {
+
+}
+
+ModelName.init(/*put your model definintion here*/);
+
+
+export default ModelName;
